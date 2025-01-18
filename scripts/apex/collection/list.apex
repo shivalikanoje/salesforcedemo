@@ -24,7 +24,7 @@ system.debug('sorting list='+fruitsList);
 list<string> fruitsList1=fruitsList.clone();
 system.debug('after clone methode='+fruitsList);
 //equals
-list<string> fruitsList2 = new list <string>{'palk','orange'};
+list<string> fruitsList2 = new list <string>{'banana','orange'};
 system.debug('equal mwthode='+fruitsList.equals(fruitsList1));
 //addAll
 fruitsList.addAll(fruitsList);
